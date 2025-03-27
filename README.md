@@ -145,8 +145,7 @@ For any questions or suggestions, feel free to reach out:
 ---
 
 ### **📌 Notes for Live Deployment**  
-  - Your project will be live at `https://markdown-previewer-umber-theta.vercel.app/`.  
-
+  - Your project will be live at [live](https://markdown-previewer-umber-theta.vercel.app/).  
 
 
 
