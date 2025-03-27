@@ -1,0 +1,127 @@
+/* 🔹 General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* 🔹 Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0073e6; /* Updated color */
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#dark-mode-toggle {
+    background: black;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* 🔹 Layout */
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* 🔹 Left Section (Markdown Input) */
+.input-section, .preview-section {
+    width: 48%;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+/* 🔹 Textarea */
+#markdown-input {
+    width: 97%;
+    height: 350px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 🔹 Right Section (Preview) */
+#preview {
+    width: 97%;
+    height: 350px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    margin-right: 20px; /* Added margin to the right */
+}
+
+/* 🔹 Bottom Buttons (Moved to Left) */
+.buttons {
+    text-align: left; /* Moved buttons to the left */
+    margin-top: 20px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#clear-btn { background: red; color: white; }
+#download-md { background: green; color: white; }
+#download-html { background: blue; color: white; }
+
+/* 🌙 Dark Mode Styles */
+.dark-mode {
+    background-color: #222;
+    color: white;
+}
+
+.dark-mode #preview {
+    background-color: #333;
+    color: white;
+}
+
+.dark-mode #markdown-input {
+    background-color: #444;
+    color: white;
+    border-color: #666;
+}
+
+
+/* 🔹 Responsive Design */
+
+/* ✅ Small Mobile (Landscape) - 481px to 600px */
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;  /* Stack sections vertically */
+        align-items: center;
+    }
+
+    .input-section, .preview-section {
+        width: 100%;  /* Full width for small screens */
+        margin-bottom: 20px;  /* Add space between sections */
+    }
+
+    #preview {
+        margin-right: 0;  /* Remove extra margin */
+    }
+
+    .buttons {
+        text-align: center;  /* Center buttons for better mobile view */
+    }
+}
+

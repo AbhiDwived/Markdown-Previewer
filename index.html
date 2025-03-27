@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown Previewer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.min.css">
+
+
+
+</head>
+<body>
+
+    <!-- 🔹 Top Section (Heading + Dark Mode Button) -->
+    <header>
+        <h1>Markdown Previewer</h1>
+        <button id="dark-mode-toggle">🌙 Dark Mode</button>
+    </header>
+
+    <!-- 🔹 Split Layout -->
+    <div class="container">
+        <!-- Left Section: Markdown Input -->
+        <section class="input-section">
+            <h2>Markdown Input</h2>
+            <textarea id="markdown-input" placeholder="Type Markdown here..."></textarea>
+        </section>
+
+        <!-- Right Section: Preview -->
+        <section class="preview-section">
+            <h2>Preview</h2>
+            <div id="preview"></div>
+        </section>
+    </div>
+
+    <!-- 🔹 Bottom Buttons (Moved to Left) -->
+    <div class="buttons">
+        <button id="clear-btn">Clear</button>
+        <button id="download-md">Download .md</button>
+        <button id="download-html">Download .html</button>
+    </div>
+
+    <script src="script.js"></script>
+    <!-- Highlight.js Script -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+</body>
+</html>
