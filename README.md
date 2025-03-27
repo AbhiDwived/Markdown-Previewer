@@ -57,10 +57,9 @@ This project **does not require** additional dependencies, but make sure you hav
 #### **Step 3: Open the Project**  
 Simply **open `index.html` in a browser** or use a local server:  
 ```sh
-# If using Python (for Windows/macOS/Linux)
-python -m http.server 8000
+
 ```
-Now open `http://localhost:8000/` in your browser.  
+Now open `http://127.0.0.1:5500/` in your browser.  
 
 ---
 
@@ -91,7 +90,7 @@ Click the **"Dark Mode"** button to switch themes.
 ## **📱 8. Responsive Design**  
 
 📌 **Desktop & Tablets:** Side-by-side layout (Markdown on left, Preview on right).  
-📌 **Mobile (<600px):** Stacked layout (Markdown input on top, Preview below).  
+📌 **Mobile (320px):** Stacked layout (Markdown input on top, Preview below).  
 
 ---
 
@@ -138,18 +137,15 @@ We **welcome contributions** from the community! 🎉
 ## **📬 13. Contact**  
 For any questions or suggestions, feel free to reach out:  
 
-📧 **Email:** your-email@example.com  
-🐙 **GitHub:** [yourusername](https://github.com/yourusername)  
+📧 **Email:** abhidwivedi687@gmail.com 
+🐙 **GitHub:** [AbhiDwived](https://github.com/AbhiDwived/Markdown-Previewer.git)  
 
 🚀 **Happy Markdown Editing!** 🎉  
 
 ---
 
 ### **📌 Notes for Live Deployment**  
-- **Hosting on GitHub Pages**:  
-  - Go to **Settings > Pages** in your repository.  
-  - Select the branch (`main` or `gh-pages`) and save.  
-  - Your project will be live at `https://yourusername.github.io/markdown-previewer/`.  
+  - Your project will be live at `https://markdown-previewer-umber-theta.vercel.app/`.  
 
 
 
