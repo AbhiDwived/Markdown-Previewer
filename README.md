@@ -32,10 +32,10 @@ This **Markdown Previewer** is designed to provide an **interactive** and **user
 
 
 ### 💡 Light Mode:
-![Light Mode Preview](images/Light%20mode.png)
+![Light Mode Preview](images/Light 20mode.png)
 
 ### 🌙 Dark Mode:
-![Dark Mode Preview](images/Dark%20mode.png)
+![Dark Mode Preview](images/Dark 20mode.png)
 
 
 ---
@@ -47,8 +47,8 @@ This **Markdown Previewer** is designed to provide an **interactive** and **user
 #### **Step 1: Clone the Repository**  
 Open your terminal and run:  
 ```sh
-git clone https://github.com/markdown-previewer.git
-cd markdown-previewer
+git clone https://github.com/AbhiDwived/Markdown-Previewer.git
+cd Markdown-previewer
 ```
 
 #### **Step 2: Install Dependencies**  

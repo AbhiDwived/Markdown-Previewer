@@ -8,7 +8,11 @@ const toggleModeBtn = document.getElementById("dark-mode-toggle");
 
 // Function to Convert Markdown to HTML
 function updatePreview() {
-    const markdownText = markdownInput.value;
+    let markdownText = markdownInput.value.trim(); // Remove unnecessary spaces
+
+    // Ensure each line ends properly
+    markdownText = markdownText.replace(/^(#+)([^\s#])/, "$1 $2");
+
     preview.innerHTML = marked.parse(markdownText);
 
     // Apply syntax highlighting
@@ -19,6 +23,7 @@ function updatePreview() {
     // Save Markdown content to Local Storage
     localStorage.setItem("savedMarkdown", markdownText);
 }
+
 
 // Function to Apply Dark Mode (On Load and Toggle)
 function applyDarkMode(isEnabled) {
