@@ -12,7 +12,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #0073e6; /* Updated color */
+    background: #0073e6; 
     color: white;
     padding: 15px;
     border-radius: 5px;
@@ -66,9 +66,9 @@ h2 {
     margin-right: 20px; /* Added margin to the right */
 }
 
-/* 🔹 Bottom Buttons (Moved to Left) */
+/* 🔹 Bottom Buttons  */
 .buttons {
-    text-align: left; /* Moved buttons to the left */
+    text-align: left; 
     margin-top: 20px;
 }
 
@@ -104,24 +104,23 @@ button {
 
 /* 🔹 Responsive Design */
 
-/* ✅ Small Mobile (Landscape) - 481px to 600px */
 @media (max-width: 600px) {
     .container {
-        flex-direction: column;  /* Stack sections vertically */
+        flex-direction: column;  
         align-items: center;
     }
 
     .input-section, .preview-section {
-        width: 100%;  /* Full width for small screens */
-        margin-bottom: 20px;  /* Add space between sections */
+        width: 100%;  
+        margin-bottom: 20px;  
     }
 
     #preview {
-        margin-right: 0;  /* Remove extra margin */
+        margin-right: 0;  
     }
 
     .buttons {
-        text-align: center;  /* Center buttons for better mobile view */
+        text-align: center;  
     }
 }
 
