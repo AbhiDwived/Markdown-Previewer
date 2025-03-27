@@ -6,6 +6,9 @@ const downloadMdBtn = document.getElementById("download-md");
 const downloadHtmlBtn = document.getElementById("download-html");
 const toggleModeBtn = document.getElementById("dark-mode-toggle");
 
+
+
+
 // Function to Convert Markdown to HTML
 function updatePreview() {
     let markdownText = markdownInput.value.trim(); // Remove unnecessary spaces
